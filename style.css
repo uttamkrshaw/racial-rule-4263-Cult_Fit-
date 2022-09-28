@@ -1,0 +1,86 @@
+body{
+    background-color: #171A26;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* NAVBAR CSS STARTING */
+
+#navbar{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 50px;
+    justify-content: space-between;
+    margin: auto;
+    position: fixed;
+}
+#navbar>div:nth-child(2){
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-between;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#navbar>div:nth-child(2)>h3{
+    padding-right:50px ;
+}
+#navbar>div:nth-child(3){
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   justify-content: space-evenly;
+   margin: auto;
+   margin-left: 30px;
+   color: white;
+   column-gap: 50px;
+
+}
+
+/* NAVBAR CSS ENDING */
+
+/* Mid video & image starting  */
+.nav-video{
+position:absolute;
+z-index:-1;
+top:0;
+left:0;
+width:100%; 
+}
+
+#navbar>div>button{
+     padding: 10px; 
+}
+
+#video-hov{
+width: 40%;
+margin: auto;
+/* border: 1px solid blue; */
+color: white;
+position: relative;
+top: 200px;
+font-size: xx-large;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#video-hov>img{
+    width: 80%;
+    /* height: 80%; */
+}
+#video-hov>button{
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+button>a>span{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+    text-decoration: none;
+}
+/* Mid video & image ending  */
