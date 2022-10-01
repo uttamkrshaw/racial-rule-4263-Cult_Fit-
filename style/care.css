@@ -68,6 +68,13 @@ body {
     border-radius: 10px;
 }
 
+.data>div:nth-child(2)>p:nth-child(1){
+    text-decoration: line-through;
+}
+
+.data>div:nth-child(2)>p:nth-child(2){
+    font-weight: bolder;
+}
 /* data-divs ending */
 
 /* data-divs-2 starting */
