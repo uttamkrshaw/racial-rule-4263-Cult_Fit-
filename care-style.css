@@ -98,6 +98,7 @@ color: #544D49;
 
 /* bot ending  */
 
+/* bottom 2 parts starting  */
 
 #bottom-1{
 display: flex;
@@ -116,6 +117,16 @@ margin-right: 30px;
 color: #909090;
 }
 
-.bottom-1-1>div>img{
-    width: 80%;
+#bottom-2{
+    display: flex;
+    background-color: #111213;
 }
+#bottom-2>div{
+    margin-top: 50px;
+    width: 12%;
+    margin: auto;
+    line-height: 30px;
+    /* border: 1px solid red; */
+}
+
+/* bottom 2 parts ending  */

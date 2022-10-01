@@ -561,3 +561,43 @@ width: 10%;
     width: 100%;
 }
 /* div-8th-starting */
+
+/* bottom 2 parts starting  */
+
+#bottom-1{
+    display: flex;
+    background-color: black;
+    }
+    #bottom-1>div{
+        display: flex;
+        width: 80%;
+        margin: auto;
+        margin-top: 50px;
+    }
+    
+    .bottom-1-1{
+    width: 30%;
+    margin-right: 30px;
+    color: #909090;
+    }
+    
+    #bottom-2{
+        display: flex;
+        background-color: #111213;
+    }
+    #bottom-2>div{
+        margin-top: 50px;
+        width: 12%;
+        margin: auto;
+        line-height: 30px;
+        /* border: 1px solid red; */
+    }
+    
+    a{
+        text-decoration: none;
+        color: #909090;
+    }
+    
+
+    /* bottom 2 parts ending  */
+    
